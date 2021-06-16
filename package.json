@@ -1,0 +1,14 @@
+{
+  "name": "goal_gui",
+  "version": "1.0.0",
+  "description": "A simple gui program to send waypoint goals to ros2",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "author": "Roald Ong",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^13.1.2"
+  }
+}
