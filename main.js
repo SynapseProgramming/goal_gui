@@ -46,10 +46,10 @@ rclnodejs.init().then(() => {
 
 app.whenReady().then(() => {
   createWindow()
-
-  const menu = Menu.buildFromTemplate(menu_template)
-  Menu.setApplicationMenu(menu)
-
+  /*
+    const menu = Menu.buildFromTemplate(menu_template)
+    Menu.setApplicationMenu(menu)
+  */
 })
 
 app.on('window-all-closed', function() {
