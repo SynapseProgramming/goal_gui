@@ -10,5 +10,10 @@
   "license": "ISC",
   "devDependencies": {
     "electron": "^13.1.2"
+  },
+  "dependencies": {
+    "eventemitter2": "^6.4.4",
+    "ros2d": "^0.9.0",
+    "roslib": "^1.1.0"
   }
 }
