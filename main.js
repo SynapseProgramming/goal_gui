@@ -1,8 +1,11 @@
 /*import electron module and store it inside two local constant object variables app and BrowserWindow*/
-const { app, BrowserWindow } = require('electron')
+const {
+  app,
+  BrowserWindow
+} = require('electron')
+const path = require('path')
 
-
-function createWindow () {
+function createWindow() {
   const win = new BrowserWindow({
     width: 1920,
     height: 1080
